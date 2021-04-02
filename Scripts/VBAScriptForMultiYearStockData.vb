@@ -25,6 +25,7 @@ Sub stocks_challenge()
         year_opening_price = ws.Cells(Row, 3).Value
         total_volume = ws.Cells(Row, 7).Value
 
+'afternote: this task could have been done outside of for loop (but within for each loop)
 'insert column headers
         ws.Cells(1, 9).Value = "Ticker"
         ws.Cells(1, 10).Value = "Yearly Change"
